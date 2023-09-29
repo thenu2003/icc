@@ -5,29 +5,187 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/script.js"></script>
+    
 
 </head>
 <body>
     
     <!-- header starts -->
-    <header>
-        <div class="container">
-            <div class="profile"><i class="fa-solid fa-user fa-xl"></i></div>
-            <div class="search-box">
-                <div class="search-icon">
-                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-                </div>
-              
-                    <input type="text" placeholder="search events...">
-                
-                <div class="voice">
-                    <i class="fa-solid fa-microphone fa-lg"></i>
-                </div>                  
+    <header>    
+        <div class="search-box">
+            <button class="profile" onclick="document.querySelector('.myProfile').style.top='0px'"><i class="fa-solid fa-user fa-xl"></i></button>
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
             </div>
+            
+                <input class="profileSearch" type="text" placeholder="search...">
+            
+            <div class="voice">
+                <i class="fa-solid fa-microphone fa-lg"></i>
+            </div>   
+            <button class="add" onclick="document.querySelector('.search-profile').style.top='0px'; document.querySelector('.search-profile').style.top='0px'">
+                <i class="fa-solid fa-plus"></i>add
+            </button>               
         </div>
     </header>
     <!-- header ends -->
+
+
+
+
+    <!-- search profile starts  -->
+
+
+    <content class="search-profile">
+        <div class="third">
+            <div class="fourth">
+                <div class="image">
+                    <img src="assets/images/local1.jpeg" alt="">
+                </div>
+                <div class="profile-info">
+                    <h2 class="name">R. Nithish Kumar</h2>
+                    <div class="btns">
+                        <button onclick="document.querySelector('.myProfile').style.top='0px'">
+                            <i class="fa-solid fa-eye"></i>view
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-thumbs-up" style="color:green"></i>Like
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third">
+            <div class="fourth">
+                <div class="image">
+                    <img src="assets/images/local1.jpeg" alt="">
+                </div>
+                <div class="profile-info">
+                    <h2 class="name">R. Nithish Kumar</h2>
+                    <div class="btns">
+                        <button>
+                            <i class="fa-solid fa-eye"></i>view
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-thumbs-up" style="color:green"></i>Like
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third">
+            <div class="fourth">
+                <div class="image">
+                    <img src="assets/images/local1.jpeg" alt="">
+                </div>
+                <div class="profile-info">
+                    <h2 class="name">R. Nithish Kumar</h2>
+                    <div class="btns">
+                        <button>
+                            <i class="fa-solid fa-eye"></i>view
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-thumbs-up" style="color:green"></i>Like
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third">
+            <div class="fourth">
+                <div class="image">
+                    <img src="assets/images/local1.jpeg" alt="">
+                </div>
+                <div class="profile-info">
+                    <h2 class="name">R. Nithish Kumar</h2>
+                    <div class="btns">
+                        <button on>
+                            <i class="fa-solid fa-eye"></i>view
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-thumbs-up" style="color:green"></i>Like
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third">
+            <div class="fourth">
+                <div class="image">
+                    <img src="assets/images/local1.jpeg" alt="">
+                </div>
+                <div class="profile-info">
+                    <h2 class="name">R. Nithish Kumar</h2>
+                    <div class="btns">
+                        <button>
+                            <i class="fa-solid fa-eye"></i>view
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-thumbs-up" style="color:green"></i>Like
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </content>
+
+
+    <!-- search profile ends  -->
+
+
+
+
+    <!-- profile starts  -->
+
+    <profile class="myProfile">
+        <div class="wall"></div>
+        <div class="profileIcon"><i class="fa-solid fa-user" style="width:70px;height:70px;"></i></div>
+        <div class="description">
+            <h2>R. Nithish Kumar</h2>
+            <div class="descript">
+                I am a left-arm batsman. Proceeding my passion at the age of 9 till now. I am looking for best coach to train me. Please make a do to see all that I have posted down below to know more about me...
+            </div>
+            <div class="loc">
+                Chennai, Tamil Nadu, India.
+            </div>
+            <div class="btns">
+                <button><i class="fa-solid fa-thumbs-up"></i>Like</button>
+                <button><i class="fa-solid fa-award"></i>Sponsor</button>
+            </div>
+        </div>
+        <div class="posts">
+            <div class="line">
+
+                <h3>Posts</h3>
+                <button class="add">
+                    <i class="fa-solid fa-plus"></i>add post
+                </div>
+
+            </div>
+            <div class="third">
+                <div class="fourth">
+                    <div class="image">
+                        <img src="assets/images/local2.png" alt="">
+                    </div>
+                    <div class="event-info-p">
+                        I am glad to anounce you that I have been the runner of the Cricket Cage Tournament conducted in Chennai.
+                        
+                    </div>
+                </div>
+                <button><i class="fa-solid fa-thumbs-up"></i>Like</button>
+                <button><i class="fa-solid fa-comment"></i>comments</button>
+            </div>
+            <div class="empty"></div>
+        </div>
+        
+    </profile>
+    
+
+
+    <!-- profile ends  -->
+
+
+
 
     <!-- main content starts  -->
     <content>
@@ -52,7 +210,7 @@
                     </div>
                 </div>
                 <div class="btns">
-                    <button>
+                    <button class="info">
                         <i class="fa-solid fa-info"></i>info
                     </button>
                     <button>
@@ -161,6 +319,8 @@
         </div>
         <div class="empty"></div>
     </content>
+
+
     <!-- main content ends  -->
 
 
@@ -178,46 +338,46 @@
     <!-- footer starts  -->
     <div class="footer">
         <div class="home">
-            <a href="#">
+            <button>
                 <i class="fa-solid fa-home"></i>
                 <span>Home</span>
-            </a>
+            </button>
         </div>
         <div class="event active">
-            <a href="#">
+            <button onclick="document.querySelector('.search-profile').style.top='-1800px'; document.querySelector('.myProfile').style.top='-1800px';">
                 <i class="fa-solid fa-calendar-days" style="color:gold"></i>
                 <span>Events</span>
-            </a>
+            </button>
         </div>
         <div class="post">
-            <a href="#">
+            <button>
                 <i class="fa-solid fa-newspaper"></i>
                 <span>Post</span>
-            </a>
+            </button>
         </div>
         <div class="learning">
-            <a href="#">
+            <button>
                 <i class="fa-solid fa-book"></i>
                 <span>Learn</span>
-            </a>
+            </button>
         </div>
         <div class="community">
-            <a href="#">
+            <button>
                 <i class="fa-solid fa-users-rays"></i>
                 <span>Community</span>
-            </a>
+            </button>
         </div>
         <div class="shop">
-            <a href="#">
+            <button>
                 <i class="fa-solid fa-shop"></i>
                 <span>Shop</span>
-            </a>
+            </button>
 
         </div>
     </div>
     <!-- footer ends  -->
 
-
+    <script src="assets/js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
